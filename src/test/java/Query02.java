@@ -28,5 +28,7 @@ public class Query02 {
             System.out.println(veri1.getInt("okul_no")+" "+ veri1.getString("ogrenci_ismi")
                     +" "+ veri1.getString("sinif")+" "+ veri1.getString("cinsiyet"));
         }
+
+
     }
 }
