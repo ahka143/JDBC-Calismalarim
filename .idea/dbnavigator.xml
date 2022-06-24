@@ -38,7 +38,9 @@ FROM
     personel AS P ON B.bolum_id = P.bolum_id
 ORDER BY B.bolum_isim DESC , P.maas
 
-select p.personel_isim, b.bolum_isim, p.maas from bolumler b left join personel p on b.bolum_id=p.bolum_id order by maas desc limit 10]]></console>
+select p.personel_isim, b.bolum_isim, p.maas from bolumler b left join personel p on b.bolum_id=p.bolum_id order by maas desc limit 10
+
+select * from okul.]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
