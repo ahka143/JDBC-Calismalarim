@@ -15,7 +15,16 @@ public class Query05 {
 
         // SORU: İşçiler adında bir tablo oluşturunuz. id int, birim VARCHAR(10), maas int
         String sorgu = "create table isciler (id int , birim varchar (10), maas int)";
-        st.execute(sorgu);
+       st.execute(sorgu);
         System.out.println("isciler tablosu olusturuldu");
+
+        //isciler tablosunu sil
+
+       // st.execute("drop table isciler");
+       // System.out.println("isciler tablosu silindi");
+
+
+        //SORU: isciler tablosuna soyisim varchar(20), sehir varchar(10) adında 2 tane sutun ekleyiniz.
+
     }
 }
