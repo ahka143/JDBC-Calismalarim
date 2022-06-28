@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Query7 {
+public class Query07 {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, SQLException {
 
