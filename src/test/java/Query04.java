@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class Query4 {
+public class Query04 {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
