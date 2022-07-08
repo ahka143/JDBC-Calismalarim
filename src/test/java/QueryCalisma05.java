@@ -36,7 +36,9 @@ public class QueryCalisma05 {
         }
         ps.executeBatch();
 
-
+st.close();
+ps.close();
+con.close();
 
 
 
